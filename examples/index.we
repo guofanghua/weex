@@ -1,0 +1,28 @@
+<template>
+  <example-list items="{{items}}" dir="examples"></example-list>
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      items: [
+        {name: 'hello', title: 'Hello World'},
+        {name: 'image-demo', title: 'Image'},
+        {name: 'text-demo', title: 'Text'},
+        {name: 'common', title: 'Common Style'},
+        {name: 'list-basic', title: 'List (Basic)'},
+        {name: 'list-demo', title: 'List (Advanced)'},
+        {name: 'slider-demo', title: 'Slider'},
+        {name: 'animation', title: 'Animation'},
+        {name: 'modal', title: 'Modal'},
+        {name: 'video-demo', title: 'Video'},
+        {name: 'calculator', title: 'Calculator'},
+        {name: 'ui', title: 'UI Gallery'},
+        {name: 'template', title: 'Example Template'}
+      ]
+    }
+  }
+</script>
+
+<style>
+</style>
