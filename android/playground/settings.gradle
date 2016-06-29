@@ -1,3 +1,0 @@
-include ':app'
-include ":weex_sdk_android"
-project(":weex_sdk_android").projectDir=new File("../sdk")
